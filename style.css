@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.normalBtn:hover{
+    /* box-shadow: 5px 5px 5px white; */
+    background-color: black;
+    color: white;
+    transition: 0.15s ease-in-out;
+}
+.normalBtn:active{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+.optBtn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.15s ease-in-out;
+}
+.optBtn:active{
+    background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+    color: black;
+}
