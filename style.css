@@ -5,7 +5,7 @@
 .normalBtn:hover{
     /* box-shadow: 5px 5px 5px white; */
     background-color: black;
-    color: white;
+    color: wheat;
     transition: 0.15s ease-in-out;
 }
 .normalBtn:active{
